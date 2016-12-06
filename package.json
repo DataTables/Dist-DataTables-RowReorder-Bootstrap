@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowreorder-bs",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "description": "RowReorder for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "files": [
         "css/rowReorder.bootstrap.css"
