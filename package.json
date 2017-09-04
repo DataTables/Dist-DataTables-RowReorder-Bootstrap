@@ -3,7 +3,7 @@
     "version": "1.2.2",
     "description": "RowReorder for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
-        "css/rowReorder.bootstrap.css"
+        "css/**/*.css"
     ],
     "style": "css/rowReorder.bootstrap.css",
     "keywords": [
