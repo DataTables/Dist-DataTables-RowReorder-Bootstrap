@@ -3,7 +3,8 @@
     "version": "1.2.3",
     "description": "RowReorder for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/rowReorder.bootstrap.css",
     "keywords": [
@@ -28,5 +29,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-Bootstrap.git"
-    }
+    },
+    "main": "js/rowReorder.bootstrap.js"
 }
