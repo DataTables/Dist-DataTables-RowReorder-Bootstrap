@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/rowReorder.bootstrap.css",
-        "css/rowReorder.bootstrap.min.css"
-    ],
     "js": [
         "js/rowReorder.bootstrap.js",
         "js/rowReorder.bootstrap.min.js"
     ],
+    "css": [
+        "css/rowReorder.bootstrap.css",
+        "css/rowReorder.bootstrap.min.css"
+    ],
+    "types": [
+        "types/rowReorder.bootstrap.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/RowReorder",
-    "last-sync": "2d5317cd244374346199da618c3869d4aef63f90",
     "last-tag": "1.2.7"
 }

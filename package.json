@@ -1,34 +1,47 @@
 {
     "name": "datatables.net-rowreorder-bs",
+    "description": "RowReorder for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
+    "main": "js/rowReorder.bootstrap.js",
+    "style": "css/rowReorder.bootstrap.css",
     "version": "1.2.7",
-    "description": "RowReorder for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/rowReorder.bootstrap.css",
     "keywords": [
-        "row reordering",
-        "DataTables",
+        "RowReorder",
+ "Row Reordering",
+        "Bootstrap",
+        "Datatables",
         "jQuery",
         "table",
-        "Bootstrap"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-rowreorder": ">=1.2.7",
+        "datatables.net-bs": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-bs": "^1.10.15",
-        "datatables.net-rowreorder": "1.2.7"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-Bootstrap.git"
-    },
-    "main": "js/rowReorder.bootstrap.js"
+    }
 }
