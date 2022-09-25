@@ -28,6 +28,6 @@
     ],
     "require": {
         "datatables.net/datatables.net-rowreorder": ">=1.2.8",
-        "datatables.net/datatables.net-bs": ">=1.11.5"
+        "datatables.net/datatables.net-bs": ">=1.12.1"
     }
 }
