@@ -4,7 +4,7 @@
     "main": "js/rowReorder.bootstrap.js",
     "module": "js/rowReorder.bootstrap.mjs",
     "style": "css/rowReorder.bootstrap.css",
-    "types": "./types/rowReorder.bootstrap.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.2.8",
     "files": [
         "css/**/*.css",
