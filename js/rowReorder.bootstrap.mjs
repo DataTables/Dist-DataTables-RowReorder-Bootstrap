@@ -9,5 +9,4 @@ import RowReorder from 'datatables.net-rowreorder';
 
 
 
-
 export default DataTable;
