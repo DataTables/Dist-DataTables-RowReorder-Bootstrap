@@ -4,7 +4,7 @@
     "main": "js/rowReorder.bootstrap.js",
     "module": "js/rowReorder.bootstrap.mjs",
     "style": "css/rowReorder.bootstrap.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/rowReorder.bootstrap.d.ts",
     "version": "1.3.3",
     "files": [
         "css/**/*.css",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "RowReorder",
-        "Row Reordering",
+ "Row Reordering",
         "Bootstrap",
         "Datatables",
         "jQuery",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowreorder": ">=1.2.8",
-        "datatables.net-bs": ">=1.12.1",
+        "datatables.net-rowreorder": ">=1.3.3",
+        "datatables.net-bs": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
