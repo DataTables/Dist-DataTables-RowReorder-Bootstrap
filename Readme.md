@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-bs';
 import 'datatables.net-rowreorder-bs'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
