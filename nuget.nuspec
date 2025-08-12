@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>RowReorder  Row Reordering  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-rowreorder" version="1.2.8"/>
-            <dependency id="datatables.net-bs" version="1.12.1"/>
+            <dependency id="datatables.net-rowreorder" version="1.5.0"/>
+            <dependency id="datatables.net-bs" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/rowReorder.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/rowReorder.bootstrap.min.js" target="content\Scripts"/>
         <file src="js/rowReorder.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/rowReorder.bootstrap.min.mjs" target="content\Scripts"/>
+        <file src="js/rowReorder.bootstrap.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/rowReorder.bootstrap.mjs" target="content\Scripts"/>
+        <file src="js/rowReorder.bootstrap.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/rowReorder.bootstrap.css" target="content\Content"/>
         <file src="css/rowReorder.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/rowReorder.bootstrap.min.css" target="content\Content"/>
