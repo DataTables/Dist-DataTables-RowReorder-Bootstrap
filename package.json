@@ -5,7 +5,7 @@
     "module": "js/rowReorder.bootstrap.mjs",
     "style": "css/rowReorder.bootstrap.css",
     "types": "./types/rowReorder.bootstrap.d.ts",
-    "version": "1.5.1",
+    "version": "2.0.0-beta.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -17,26 +17,14 @@
         "Row Reordering",
         "Bootstrap",
         "Datatables",
-        "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowreorder": "1.5.1",
-        "datatables.net-bs": ">=1.11.0",
-        "jquery": ">=1.7"
+        "datatables.net-rowreorder": "2.0.0-beta.1",
+        "datatables.net-bs": "3.0.0-0"
     },
-    "moduleType": [
-        "globals",
-        "amd",
-        "node"
-    ],
-    "ignore": [
-        "composer.json",
-        "datatables.json",
-        "package.json"
-    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
@@ -46,6 +34,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-Bootstrap.git"
+        "url": "git+https://github.com/DataTables/RowReorder.git"
     }
 }
