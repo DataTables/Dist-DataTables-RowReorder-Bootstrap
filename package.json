@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowreorder-bs",
     "description": "RowReorder for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
-    "main": "js/rowReorder.bootstrap.js",
-    "module": "js/rowReorder.bootstrap.mjs",
-    "style": "css/rowReorder.bootstrap.css",
+    "main": "./js/rowReorder.bootstrap.js",
+    "module": "./js/rowReorder.bootstrap.mjs",
+    "style": "./css/rowReorder.bootstrap.css",
     "types": "./types/rowReorder.bootstrap.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowReorder",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowReorder.bootstrap.d.ts",
+            "import": "./js/rowReorder.bootstrap.mjs",
+            "default": "./js/rowReorder.bootstrap.mjs",
+            "require": "./js/rowReorder.bootstrap.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowReorder.bootstrap.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
