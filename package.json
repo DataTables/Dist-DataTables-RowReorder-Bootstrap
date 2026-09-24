@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/rowReorder.bootstrap.d.ts",
+            "style": "./css/rowReorder.bootstrap.css",
             "import": "./js/rowReorder.bootstrap.mjs",
-            "default": "./js/rowReorder.bootstrap.mjs",
-            "require": "./js/rowReorder.bootstrap.js"
+            "require": "./js/rowReorder.bootstrap.js",
+            "default": "./js/rowReorder.bootstrap.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
